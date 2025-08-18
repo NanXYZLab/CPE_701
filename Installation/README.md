@@ -16,13 +16,13 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
 1.2. Install:
    - On Windows: run the `.exe` installer.
    - On macOS/Linux: run in terminal:
-     ```bash
+     ```
      bash Miniconda3-latest-Linux-x86_64.sh
      ```
    - Follow prompts and allow Conda to be added to your PATH.
 
 1.3. Verify installation:
-     ```bash
+     ```
      conda --version
      pip --version
      ```
@@ -30,7 +30,8 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
 ## 2. Create a Conda Environment
 
 2.1 Create a separate environment for each project or course.
-    ```bash
+
+    ```
     conda create -n cpe701 python=3.10 -y
     ```
 2.2 Then active it
