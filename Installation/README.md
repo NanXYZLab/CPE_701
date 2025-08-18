@@ -22,14 +22,14 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
    - Follow prompts and allow Conda to be added to your PATH.
 
 1.3. Verify installation:
-   ```bash
-   conda --version
-   pip --version
-   ```
+     ```bash
+     conda --version
+     pip --version
+     ```
+
 ## 2. Create a Conda Environment
 
 2.1 Create a separate environment for each project or course.
-
     ```bash
     conda create -n cpe701 python=3.10 -y
     ```
