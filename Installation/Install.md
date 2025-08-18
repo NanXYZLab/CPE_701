@@ -31,7 +31,7 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
 
 2.1 Create a separate environment for each project or course.
 
-    ```
+    ```bash
     conda create -n cpe701 python=3.10 -y
     ```
 2.2 Then active it
@@ -52,6 +52,5 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
     ```
     conda deactivate
     ```
-
 
 
