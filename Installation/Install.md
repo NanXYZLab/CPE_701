@@ -51,7 +51,13 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
    pip install notebook jupyterlab
    ```
 
-### 2.4 Deactivate it 
+### 2.4 Open Jupyter Notebook in Web Browser
+
+   ```
+   jupyter notebook --no-browser --port=8888 --ip=0.0.0.0
+   ```
+
+### 2.5 Deactivate it 
 
    ```
    conda deactivate
