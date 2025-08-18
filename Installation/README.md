@@ -24,12 +24,33 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
 1.3. Verify installation:
    ```bash
    conda --version
-
+   pip --version
+   ```
 ## 2. Create a Conda Environment
 
-Create a separate environment for each project or course.
+2.1 Create a separate environment for each project or course.
 
-```
-conda create -n cpe701 python=3.10 -y
-```
+    ```bash
+    conda create -n cpe701 python=3.10 -y
+    ```
+2.2 Then active it
+
+    ```bash
+    conda activate cpe701
+    ```
+
+2.3 Install Core Packages
+
+    ```
+    pip install numpy scipy matplotlib pandas sympy
+    pip install notebook jupyterlab
+    ```
+
+2.4 Deactivate it 
+
+    ```
+    conda deactivate
+    ```
+
+
 
