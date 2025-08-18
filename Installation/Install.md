@@ -24,7 +24,7 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
    - Follow prompts and allow Conda to be added to your PATH.
 
 ### 1.3. Verify installation:
-
+     
      ```bash
      conda --version
      pip --version
