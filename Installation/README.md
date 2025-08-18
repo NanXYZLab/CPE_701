@@ -1,0 +1,35 @@
+# Environment Setup Guide
+
+This guide will help you install **Miniconda**, set up **Python**, and run **Jupyter Notebooks** for numerical methods and chemical engineering coursework.
+
+---
+
+## 1. Install Miniconda
+
+Miniconda is a lightweight distribution of **Conda**, a package manager that helps manage Python environments.
+
+1.1 Download Miniconda:
+   - [Miniconda Downloads](https://docs.conda.io/en/latest/miniconda.html)
+   - Choose the installer for your OS (Windows, macOS, Linux).  
+   - Recommended: **Python 3.x 64-bit** installer.
+
+1.2. Install:
+   - On Windows: run the `.exe` installer.
+   - On macOS/Linux: run in terminal:
+     ```bash
+     bash Miniconda3-latest-Linux-x86_64.sh
+     ```
+   - Follow prompts and allow Conda to be added to your PATH.
+
+1.3. Verify installation:
+   ```bash
+   conda --version
+
+## 2. Create a Conda Environment
+
+Create a separate environment for each project or course.
+
+```
+conda create -n cpe701 python=3.10 -y
+```
+
