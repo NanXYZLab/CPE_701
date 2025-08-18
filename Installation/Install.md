@@ -25,7 +25,7 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
 
 ### 1.3. Verify installation:
      
-     ```bash
+     ```
      conda --version
      pip --version
      ```
