@@ -3,8 +3,6 @@
 
 # # Python Basics: A Hands‑On Tutorial (Jupyter Notebook)
 # 
-# *A compact, practice-first Python intro inspired by the core topics from the video linked in your request.*
-# 
 # > Tip: Run a cell with **Shift+Enter**. Edit any cell and re-run to experiment.
 
 # ## 1) Hello, Python
