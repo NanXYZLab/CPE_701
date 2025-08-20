@@ -65,6 +65,6 @@ Miniconda is a lightweight distribution of **Conda**, a package manager that hel
 
 ### 2.6 Goolge Colab (Optional)
 
-    2.6.1 Go to [Google Colab](https://colab.research.google.com/)
-    2.6.2 Click **File → Open notebook → GitHub tab**
-    2.6.3 Paste the GitHub URL "NanXYZLab/CPE_701.git" and press Enter
+    - Go to [Google Colab](https://colab.research.google.com/)
+    - Click **File → Open notebook → GitHub tab**
+    - Paste the GitHub URL "NanXYZLab/CPE_701.git" and press Enter
